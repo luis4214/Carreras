@@ -1,0 +1,1619 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.7f1 (b16b3b16c7a0) revision 11627323'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'es' Physical Memory: 8066 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/luich/Carreras
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51601
+Successfully changed project path to: C:/Users/luich/Carreras
+C:/Users/luich/Carreras
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8436] Host "[IP] 192.168.1.7 [Port] 0 [Flags] 2 [Guid] 1327529585 [EditorId] 1327529585 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-LE7C5V8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8436] Host "[IP] 192.168.1.7 [Port] 0 [Flags] 2 [Guid] 1327529585 [EditorId] 1327529585 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-LE7C5V8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 12.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.7f1 (b16b3b16c7a0)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/luich/Carreras/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics (ID=0x152)
+    Vendor:   Intel
+    VRAM:     128 MB
+    Driver:   10.18.10.4252
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56876
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.015284 seconds.
+- Loaded All Assemblies, in  0.627 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.450 seconds
+Domain Reload Profiling: 1075ms
+	BeginReloadAssembly (199ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (105ms)
+	LoadAllAssembliesAndSetupDomain (246ms)
+		LoadAssemblies (196ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (242ms)
+			TypeCache.Refresh (240ms)
+				TypeCache.ScanAssembly (212ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (451ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (345ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (227ms)
+			ProcessInitializeOnLoadMethodAttributes (86ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\luich\Carreras\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\luich\Carreras\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.033 seconds
+Refreshing native plugins compatible for Editor in 4.18 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.795 seconds
+Domain Reload Profiling: 1825ms
+	BeginReloadAssembly (222ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (663ms)
+		LoadAssemblies (513ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (288ms)
+			TypeCache.Refresh (258ms)
+				TypeCache.ScanAssembly (226ms)
+			ScanForSourceGeneratedMonoScriptInfo (21ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (796ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (567ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (421ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 3.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3125 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (56.4 KB). Loaded Objects now: 3588.
+Memory consumption went from 118.5 MB to 118.5 MB.
+Total: 4.126100 ms (FindLiveObjects: 0.314500 ms CreateObjectMapping: 0.171900 ms MarkObjects: 3.508100 ms  DeleteObjects: 0.130300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 12955.048681 seconds.
+  path: Assets/Scenes/INICIO.unity
+  artifactKey: Guid(11f0ea0e05e89404caca49649446ad8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/INICIO.unity using Guid(11f0ea0e05e89404caca49649446ad8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ca50337b8844162697ab99455b36e90') in 0.002263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 181.848251 seconds.
+  path: Assets/Scenes/YOU WIN.unity
+  artifactKey: Guid(eb35f181d08a11a43b00a2e619a69e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/YOU WIN.unity using Guid(eb35f181d08a11a43b00a2e619a69e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42f343c171a7190fba180fea2b97812d') in 0.000868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\luich\Carreras\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\luich\Carreras\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.634 seconds
+Refreshing native plugins compatible for Editor in 4.04 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.139 seconds
+Domain Reload Profiling: 1769ms
+	BeginReloadAssembly (222ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (299ms)
+		LoadAssemblies (400ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (26ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1139ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (502ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (105ms)
+			ProcessInitializeOnLoadAttributes (333ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 4.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3104 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3591.
+Memory consumption went from 114.3 MB to 114.3 MB.
+Total: 6.499700 ms (FindLiveObjects: 0.590400 ms CreateObjectMapping: 0.224800 ms MarkObjects: 5.580800 ms  DeleteObjects: 0.099600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\luich\Carreras\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\luich\Carreras\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.626 seconds
+Refreshing native plugins compatible for Editor in 3.99 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.256 seconds
+Domain Reload Profiling: 1880ms
+	BeginReloadAssembly (212ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (303ms)
+		LoadAssemblies (400ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (25ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1257ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (599ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (106ms)
+			ProcessInitializeOnLoadAttributes (423ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 11.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3105 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3594.
+Memory consumption went from 114.6 MB to 114.5 MB.
+Total: 6.528300 ms (FindLiveObjects: 0.977700 ms CreateObjectMapping: 0.408700 ms MarkObjects: 4.979000 ms  DeleteObjects: 0.159400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 311.517145 seconds.
+  path: Assets/Monedas/MonedaD.png
+  artifactKey: Guid(5a67e2a8ae2493f47aee4030491a36f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Monedas/MonedaD.png using Guid(5a67e2a8ae2493f47aee4030491a36f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20f232ecf536c19191d823d28d933f38') in 0.198088 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 37.927435 seconds.
+  path: Assets/IMAJENES/PERSONAJE INACTIVO
+  artifactKey: Guid(c04edc1f354217c4cb51ce7c0a88179d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IMAJENES/PERSONAJE INACTIVO using Guid(c04edc1f354217c4cb51ce7c0a88179d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e45bb571209f3ce0f171970c68ef72b3') in 0.000954 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.089873 seconds.
+  path: Assets/IMAJENES/PERSONAJE INACTIVO/PERSONAJE INACTIVO 1.png
+  artifactKey: Guid(7205f11cdfeab9a43a914f64a972edd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IMAJENES/PERSONAJE INACTIVO/PERSONAJE INACTIVO 1.png using Guid(7205f11cdfeab9a43a914f64a972edd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e364f1b6f144493ecae6db18c659018') in 0.050321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/IMAJENES/PERSONAJE INACTIVO/PERSONAJE INACTIVO 2.png
+  artifactKey: Guid(1a2073a9ceea7fc46b561a0df999e00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IMAJENES/PERSONAJE INACTIVO/PERSONAJE INACTIVO 2.png using Guid(1a2073a9ceea7fc46b561a0df999e00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b008ab5a7353157e46eb88129add60d9') in 0.041988 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/IMAJENES/PERSONAJE INACTIVO/PERSONAJE INACTIVO 9.png
+  artifactKey: Guid(b278fb67ec22e1746943b6013afd4e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IMAJENES/PERSONAJE INACTIVO/PERSONAJE INACTIVO 9.png using Guid(b278fb67ec22e1746943b6013afd4e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12dc657cf1b5a0c7b406c1eff054613a') in 0.037815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/IMAJENES/PERSONAJE INACTIVO/PERSONAJE INACTIVO 3.png
+  artifactKey: Guid(9855e0c67b3848c4e97407a3f7489b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IMAJENES/PERSONAJE INACTIVO/PERSONAJE INACTIVO 3.png using Guid(9855e0c67b3848c4e97407a3f7489b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09bb45f1ef62ba0b8cd83c463b6ca110') in 0.048984 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/IMAJENES/PERSONAJE INACTIVO/PERSONAJE INACTIVO 4.png
+  artifactKey: Guid(9cdef429a24d34449915e7f68e2d3d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IMAJENES/PERSONAJE INACTIVO/PERSONAJE INACTIVO 4.png using Guid(9cdef429a24d34449915e7f68e2d3d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b45f7d7d86ea731f5f3284d95160a7db') in 0.048358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/IMAJENES/PERSONAJE INACTIVO/PERSONAJE INACTIVO 5.png
+  artifactKey: Guid(85c1cf8be7f379e4e8d7ac574901f9c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IMAJENES/PERSONAJE INACTIVO/PERSONAJE INACTIVO 5.png using Guid(85c1cf8be7f379e4e8d7ac574901f9c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61de22cc72fa25a75f94083109e750ce') in 0.044878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/IMAJENES/PERSONAJE INACTIVO/PERSONAJE INACTIVO 10.png
+  artifactKey: Guid(9f2f386f0c2da9a418da98c0adc1d377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IMAJENES/PERSONAJE INACTIVO/PERSONAJE INACTIVO 10.png using Guid(9f2f386f0c2da9a418da98c0adc1d377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34387c42cd6ec0dfac6d47db95d544a7') in 0.040815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/IMAJENES/PERSONAJE INACTIVO/PERSONAJE INACTIVO 11.png
+  artifactKey: Guid(7808ec43533430b4c8c12f1afba7f00a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IMAJENES/PERSONAJE INACTIVO/PERSONAJE INACTIVO 11.png using Guid(7808ec43533430b4c8c12f1afba7f00a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09b89b7f9202f3ce3b7eb40a5d0b6d98') in 0.046508 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/IMAJENES/PERSONAJE INACTIVO/PERSONAJE INACTIVO 7.png
+  artifactKey: Guid(73fda095a81155e4c9e2d456fd1e9a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IMAJENES/PERSONAJE INACTIVO/PERSONAJE INACTIVO 7.png using Guid(73fda095a81155e4c9e2d456fd1e9a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32bb8a1458d3209d6306275f2ad37bf2') in 0.040371 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/IMAJENES/PERSONAJE INACTIVO/PERSONAJE INACTIVO 8.png
+  artifactKey: Guid(7429168fccf39494bb7efdcba3b077d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IMAJENES/PERSONAJE INACTIVO/PERSONAJE INACTIVO 8.png using Guid(7429168fccf39494bb7efdcba3b077d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e110156dc3fa5def86344db915821b7') in 0.047820 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/IMAJENES/PERSONAJE INACTIVO/PERSONAJE INACTIVO 6.png
+  artifactKey: Guid(c69ffd489c4d9084886b990c06e3b0fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IMAJENES/PERSONAJE INACTIVO/PERSONAJE INACTIVO 6.png using Guid(c69ffd489c4d9084886b990c06e3b0fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30c62729260f6d37d33fdf0a0524a444') in 0.042650 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.874312 seconds.
+  path: Assets/IMAJENES/PERSONAJE ATACA/PERSONAJE ATACA 1.png
+  artifactKey: Guid(6414433c228bde945ac7a72020ff2b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IMAJENES/PERSONAJE ATACA/PERSONAJE ATACA 1.png using Guid(6414433c228bde945ac7a72020ff2b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47969e7567cebb987c7d530fad5ae6d6') in 0.041520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/IMAJENES/PERSONAJE ATACA/PERSONAJE ATACA 3.png
+  artifactKey: Guid(7f6002496c86a8e4ebc066e7b7f99b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IMAJENES/PERSONAJE ATACA/PERSONAJE ATACA 3.png using Guid(7f6002496c86a8e4ebc066e7b7f99b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '600177c71346e7a32802501773e0e7fd') in 0.041349 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/IMAJENES/PERSONAJE ATACA/PERSONAJE ATACA 2.png
+  artifactKey: Guid(75b0f5d2631f6804aa38b4b88df35478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IMAJENES/PERSONAJE ATACA/PERSONAJE ATACA 2.png using Guid(75b0f5d2631f6804aa38b4b88df35478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd44decf5603bd959a007d08897ee2562') in 0.036831 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.554980 seconds.
+  path: Assets/IMAJENES/BOTONES DE NIVELES/BOTON NIVEL 1.png
+  artifactKey: Guid(7bd27664b5ef42f41a191702c1eb22b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IMAJENES/BOTONES DE NIVELES/BOTON NIVEL 1.png using Guid(7bd27664b5ef42f41a191702c1eb22b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e533efd2fb3dfafcf92fed7c4cf7e504') in 0.054706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/IMAJENES/BOTONES DE NIVELES/BOTON NIVEL 3.png
+  artifactKey: Guid(3db3280e7768b3c4581dad8d4fe4e3c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IMAJENES/BOTONES DE NIVELES/BOTON NIVEL 3.png using Guid(3db3280e7768b3c4581dad8d4fe4e3c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75950bf952dd961c125b08be5c1b9027') in 0.051769 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/IMAJENES/BOTONES DE NIVELES/BOTON NIVEL 2.png
+  artifactKey: Guid(408cd0b1b85559f43bc90dd8078073b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IMAJENES/BOTONES DE NIVELES/BOTON NIVEL 2.png using Guid(408cd0b1b85559f43bc90dd8078073b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '649834ae04c1169f907c469e4a48e32c') in 0.041966 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 4.758494 seconds.
+  path: Assets/IMAJENES/PERSONAJE ATACA
+  artifactKey: Guid(9301fd09497093847835dc90d4f222bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IMAJENES/PERSONAJE ATACA using Guid(9301fd09497093847835dc90d4f222bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59b77b98f642fd8c903c5fe196e09072') in 0.000843 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 13.474411 seconds.
+  path: Assets/IMAJENES/BOTONES DE NIVELES
+  artifactKey: Guid(27a2981bd078b60459cf7360fc438993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IMAJENES/BOTONES DE NIVELES using Guid(27a2981bd078b60459cf7360fc438993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a994e2102218bbf71b0759e63ca99f0') in 0.000713 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.152353 seconds.
+  path: Assets/Prefabs/Button.prefab
+  artifactKey: Guid(d6540e82e386c44499ccd08f97a3bcb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Button.prefab using Guid(d6540e82e386c44499ccd08f97a3bcb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7f645e60f68315d8e83540431038fdb') in 0.025130 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(087a86aa08589d8449579f0f4fb48872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(087a86aa08589d8449579f0f4fb48872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d6fd12f95c075e3226811f5d30872cb') in 0.005467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Prefabs/ESPADA.prefab
+  artifactKey: Guid(429afecf5e9fdb142be35188d67fe3dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ESPADA.prefab using Guid(429afecf5e9fdb142be35188d67fe3dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09545e139c0fa9358a1f7aacd0fdfbec') in 0.084448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Prefabs/Square.prefab
+  artifactKey: Guid(a02bee57c4efbc34cbb09f44ade558c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Square.prefab using Guid(a02bee57c4efbc34cbb09f44ade558c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75be2d094a27c551339c9da67f107628') in 0.003943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Prefabs/Main Camera.prefab
+  artifactKey: Guid(d7b8903e41b921e44bcce77bba993ed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Main Camera.prefab using Guid(d7b8903e41b921e44bcce77bba993ed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b35fca612bf064ef541bf0f4b3ea8198') in 0.002950 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Prefabs/MonedaD_0.prefab
+  artifactKey: Guid(d85f80d13e2617241b43f5a7b36bb538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MonedaD_0.prefab using Guid(d85f80d13e2617241b43f5a7b36bb538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e078f73ff30b51d6686866a319c3c36') in 0.053982 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 15.501111 seconds.
+  path: Assets/Script/Enemigo.cs
+  artifactKey: Guid(9538dab99a34a8145b97282110013df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Enemigo.cs using Guid(9538dab99a34a8145b97282110013df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd60cabf1bbf41b68ec55e3c999b687d9') in 0.000739 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\luich\Carreras\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\luich\Carreras\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.650 seconds
+Refreshing native plugins compatible for Editor in 3.91 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.054 seconds
+Domain Reload Profiling: 1700ms
+	BeginReloadAssembly (219ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (319ms)
+		LoadAssemblies (405ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (39ms)
+			TypeCache.Refresh (21ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1054ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (441ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (82ms)
+			ProcessInitializeOnLoadAttributes (305ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 4.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3103 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (31.8 KB). Loaded Objects now: 3622.
+Memory consumption went from 119.0 MB to 119.0 MB.
+Total: 4.252600 ms (FindLiveObjects: 0.308800 ms CreateObjectMapping: 0.212900 ms MarkObjects: 3.672300 ms  DeleteObjects: 0.057200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 20.197845 seconds.
+  path: Assets/Animacion/bacteria.anim
+  artifactKey: Guid(e7b50ab7508af79489e46e0712d9a9e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animacion/bacteria.anim using Guid(e7b50ab7508af79489e46e0712d9a9e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03cd531c331a5582fd2784e7091668f9') in 0.015000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 4.732925 seconds.
+  path: Assets/Animacion/Conejo.controller
+  artifactKey: Guid(2a72faf75e66ea447b9f2e225546ad38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animacion/Conejo.controller using Guid(2a72faf75e66ea447b9f2e225546ad38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b642853c70de46c54413ee49276cdb4') in 0.002691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 5.786923 seconds.
+  path: Assets/Animacion/conejo11.anim
+  artifactKey: Guid(4c517c209688fe042a401bb710134c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animacion/conejo11.anim using Guid(4c517c209688fe042a401bb710134c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76c47d4c34d5d87b9d7f3cb4ec9c4fc8') in 0.001365 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 30.191801 seconds.
+  path: Assets/Prefabs/Square.prefab
+  artifactKey: Guid(a02bee57c4efbc34cbb09f44ade558c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Square.prefab using Guid(a02bee57c4efbc34cbb09f44ade558c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f07b10c57637182af10834ae351ebb0f') in 0.031850 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 60.175273 seconds.
+  path: Assets/IMAJENES
+  artifactKey: Guid(e9fc353db9d94d844b83894f95384724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IMAJENES using Guid(e9fc353db9d94d844b83894f95384724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5060494a4b08b669835d11b2f1e7e8a') in 0.000922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 87.604266 seconds.
+  path: Assets/Scenes/INICIO.unity
+  artifactKey: Guid(11f0ea0e05e89404caca49649446ad8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/INICIO.unity using Guid(11f0ea0e05e89404caca49649446ad8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2d71d474367bc57d3cc1ad997347d52') in 0.000826 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.154927 seconds.
+  path: Assets/Scenes/INFORMACION.unity
+  artifactKey: Guid(b4fdf1ae9fa23a5499f9ea435e359eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/INFORMACION.unity using Guid(b4fdf1ae9fa23a5499f9ea435e359eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '789014618a20d6481a03cd48e6b66e86') in 0.000718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 19.813617 seconds.
+  path: Assets/Scenes/NIVELES.unity
+  artifactKey: Guid(b223b78275e0afb4da08249879c6c8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/NIVELES.unity using Guid(b223b78275e0afb4da08249879c6c8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c82c84cddc6ffd18bc3b0ed17e030fc8') in 0.000711 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 52.096971 seconds.
+  path: Assets/Scenes/Nivel 1.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Nivel 1.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daf85af20b712cad9a6133a41f076cbd') in 0.000825 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1218.236528 seconds.
+  path: Assets/Kennet/Modelos
+  artifactKey: Guid(34efac9ceb23a6045be1e8743ddf157d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Modelos using Guid(34efac9ceb23a6045be1e8743ddf157d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27473cd8161211c5acd2039195591185') in 0.000940 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 251.851662 seconds.
+  path: Assets/Materiales
+  artifactKey: Guid(3bda61f3e64d04b4cb5099b053e039b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materiales using Guid(3bda61f3e64d04b4cb5099b053e039b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74eca4e9f7641acff92aed43f9ec0d49') in 0.000709 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 36.326851 seconds.
+  path: Assets/Materiales/New Material.mat
+  artifactKey: Guid(c6f5acd4f38e86048894044c85662fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materiales/New Material.mat using Guid(c6f5acd4f38e86048894044c85662fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e446aa6f311e0d48c2dc69f142a4ce2') in 0.461683 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 140.288344 seconds.
+  path: Assets/Kennet/Race kit/FBX format
+  artifactKey: Guid(8248fd569aa34804ba4945c2b678c1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format using Guid(8248fd569aa34804ba4945c2b678c1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72f60fe62526b09dd7ee59f6b1079da6') in 0.000760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.081135 seconds.
+  path: Assets/Kennet/Race kit/FBX format/bannerTowerGreen.fbx
+  artifactKey: Guid(9930df02ef1459d4cb0a757fe341a594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/bannerTowerGreen.fbx using Guid(9930df02ef1459d4cb0a757fe341a594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50e497716cbf1f1b938ec7e7ff429550') in 0.110508 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Kennet/Race kit/FBX format/lightColored.fbx
+  artifactKey: Guid(70cb70e160b38ce45be9218d7a69683a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/lightColored.fbx using Guid(70cb70e160b38ce45be9218d7a69683a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '197305452579367b6fba1a456fcc7cec') in 0.092701 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Kennet/Race kit/FBX format/flagGreen.fbx
+  artifactKey: Guid(fd16c23bd8ce64b4bbbec996b5831d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/flagGreen.fbx using Guid(fd16c23bd8ce64b4bbbec996b5831d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed760f823519044900c8825f1908d6c9') in 0.087878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Kennet/Race kit/FBX format/overhead.fbx
+  artifactKey: Guid(b8316fb0f2fee364dafa16b33ca863ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/overhead.fbx using Guid(b8316fb0f2fee364dafa16b33ca863ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b7e0d628892efd5a4724d539d243386') in 0.041499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Kennet/Race kit/FBX format/bannerTowerRed.fbx
+  artifactKey: Guid(2d00d8fd1686c3441a4f6bb1c34b11a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/bannerTowerRed.fbx using Guid(2d00d8fd1686c3441a4f6bb1c34b11a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dddb0041e92360fa1697b34c836b442') in 0.066990 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Kennet/Race kit/FBX format/billboard.fbx
+  artifactKey: Guid(8149d7067c08a7c4ea39be9fb6426903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/billboard.fbx using Guid(8149d7067c08a7c4ea39be9fb6426903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5619981081b18d1a2beb5a06f7bc3612') in 0.074585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Kennet/Race kit/FBX format/flagRed.fbx
+  artifactKey: Guid(25b6cc2f7e905234fa9830dc12070939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/flagRed.fbx using Guid(25b6cc2f7e905234fa9830dc12070939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9543c6a4129734468428df32c9f4a8e') in 0.090293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Kennet/Race kit/FBX format/fenceStraight.fbx
+  artifactKey: Guid(bb45931eba9017648af09d824ba4c2ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/fenceStraight.fbx using Guid(bb45931eba9017648af09d824ba4c2ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fa4ef505db709d7d25a700bc44d9991') in 0.055133 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Kennet/Race kit/FBX format/grandStand.fbx
+  artifactKey: Guid(27031c2e88fb82941824292729999368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/grandStand.fbx using Guid(27031c2e88fb82941824292729999368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e10bff4628c17e7586863332647bc386') in 0.081810 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Kennet/Race kit/FBX format/lightPostLarge.fbx
+  artifactKey: Guid(260f54b03f3cb204088683f91eaa0c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/lightPostLarge.fbx using Guid(260f54b03f3cb204088683f91eaa0c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfb089da6b7915d884de99559a9d160a') in 0.065678 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Kennet/Race kit/FBX format/flagCheckers.fbx
+  artifactKey: Guid(3baa727c441d99d44b4ce47a87a2cc25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/flagCheckers.fbx using Guid(3baa727c441d99d44b4ce47a87a2cc25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3be10a38cd60340f9cc877ec8235984a') in 0.085686 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Kennet/Race kit/FBX format/grandStandCoveredRound.fbx
+  artifactKey: Guid(f7616e02c2d5c6f4fb3da2d3fab81a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/grandStandCoveredRound.fbx using Guid(f7616e02c2d5c6f4fb3da2d3fab81a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f33f7c6104e7237f473cedab52c5e96d') in 0.081621 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Kennet/Race kit/FBX format/lightRed.fbx
+  artifactKey: Guid(821daae60011aae42b1e5829f6985f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/lightRed.fbx using Guid(821daae60011aae42b1e5829f6985f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '546f708bedc025fba4f439ad095f1d7b') in 0.083255 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Kennet/Race kit/FBX format/grandStandAwning.fbx
+  artifactKey: Guid(8e47833c78675504db5a6be53827bef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/grandStandAwning.fbx using Guid(8e47833c78675504db5a6be53827bef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81383c7d91ebc9d2497d69465a32afd5') in 0.060761 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Kennet/Race kit/FBX format/billboardLower.fbx
+  artifactKey: Guid(28199f6d8897f524b9ba5e2479641309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/billboardLower.fbx using Guid(28199f6d8897f524b9ba5e2479641309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5c3c811a8c4ef554f131b36bf0dd05f') in 0.086690 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Kennet/Race kit/FBX format/grandStandCovered.fbx
+  artifactKey: Guid(08f8d8de6e9e1e540bf72c29c6a3fbfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/grandStandCovered.fbx using Guid(08f8d8de6e9e1e540bf72c29c6a3fbfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5d4cb4e0c7c8efe88011cdb9fafe1a4') in 0.080838 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Kennet/Race kit/FBX format/flagCheckersSmall.fbx
+  artifactKey: Guid(979325b629ed5b94d9f07e6604c02a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/flagCheckersSmall.fbx using Guid(979325b629ed5b94d9f07e6604c02a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b139ff030a9e0da2b025bf5cb8d0e31') in 0.072651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Kennet/Race kit/FBX format/flagTankco.fbx
+  artifactKey: Guid(d55622dfbfbf580428d95b9b53d2167a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/flagTankco.fbx using Guid(d55622dfbfbf580428d95b9b53d2167a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13385f91cb5f680e1c41497fcdc9ef95') in 0.090144 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Kennet/Race kit/FBX format/pitsOffice.fbx
+  artifactKey: Guid(dd794cbed61f8a448b49f6acc07e1339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/pitsOffice.fbx using Guid(dd794cbed61f8a448b49f6acc07e1339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3134f700cac6e3d0b4688aa97ef329dc') in 0.074165 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Kennet/Race kit/FBX format/overheadRound.fbx
+  artifactKey: Guid(4f9067672873b2f4dbfaa451f061bac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/overheadRound.fbx using Guid(4f9067672873b2f4dbfaa451f061bac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e4c447c09b614300a21ba720542a913') in 0.048954 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Kennet/Race kit/FBX format/pitsGarageClosed.fbx
+  artifactKey: Guid(cbd3c43fbb9c1074da41d4d17b17770c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/pitsGarageClosed.fbx using Guid(cbd3c43fbb9c1074da41d4d17b17770c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09f0e34862b4b2547456d86cfcc90a4c') in 0.080332 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Kennet/Race kit/FBX format/pylon.fbx
+  artifactKey: Guid(c582754889978624fa557755d7e909ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/pylon.fbx using Guid(c582754889978624fa557755d7e909ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8795c2f6f4f1086e7eee5a86a8347377') in 0.042893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Kennet/Race kit/FBX format/overheadLights.fbx
+  artifactKey: Guid(ae473bef8f345f34d888473d3d7dcfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/overheadLights.fbx using Guid(ae473bef8f345f34d888473d3d7dcfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f668ee3c7fbad7eba9591cff57ba5436') in 0.065345 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Kennet/Race kit/FBX format/pitsOfficeRoof.fbx
+  artifactKey: Guid(0f52be0ea24788e408343f9919754626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/pitsOfficeRoof.fbx using Guid(0f52be0ea24788e408343f9919754626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd998ea55518bc37f6e3b66121b91b83a') in 0.082729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Kennet/Race kit/FBX format/camera_exclusive.fbx
+  artifactKey: Guid(e73e58ce4eada7c4aa4cd0e866d3bbd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/camera_exclusive.fbx using Guid(e73e58ce4eada7c4aa4cd0e866d3bbd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86664f627ff8a2356c553e1ad910fd6a') in 0.063735 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Kennet/Race kit/FBX format/pitsOfficeCorner.fbx
+  artifactKey: Guid(0ad89be622b82154dbabe84058478b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/pitsOfficeCorner.fbx using Guid(0ad89be622b82154dbabe84058478b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd90ca63d76a642c0dc970172d909484e') in 0.075288 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Kennet/Race kit/FBX format/barrierWhite.fbx
+  artifactKey: Guid(c9ab9959ee9dce64d8bd367dd70e6f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/barrierWhite.fbx using Guid(c9ab9959ee9dce64d8bd367dd70e6f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9052d90e07c9e32ef281de40ac688a73') in 0.044428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Kennet/Race kit/FBX format/fenceCurved.fbx
+  artifactKey: Guid(51b9afb1fecafc742a1b20ec296b8b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/fenceCurved.fbx using Guid(51b9afb1fecafc742a1b20ec296b8b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b52ae85a05539cb913cf4ed0475222b6') in 0.052646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Kennet/Race kit/FBX format/grandStandRound.fbx
+  artifactKey: Guid(7177a9990a7225f4685b0044cdd3849f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/grandStandRound.fbx using Guid(7177a9990a7225f4685b0044cdd3849f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa6a5252e758ccd36db95e1b04224585') in 0.077995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Kennet/Race kit/FBX format/pitsGarageCorner.fbx
+  artifactKey: Guid(6c8425e58ed4dd545bece323f907475f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/pitsGarageCorner.fbx using Guid(6c8425e58ed4dd545bece323f907475f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa28c1d08d4b3e06330ecca41a92ab56') in 0.083748 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Kennet/Race kit/FBX format/overheadRoundColored.fbx
+  artifactKey: Guid(ae6516dcd7ac72a47a85db401edfb3b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/overheadRoundColored.fbx using Guid(ae6516dcd7ac72a47a85db401edfb3b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd92e17914264af26e6017b785ba73b30') in 0.049946 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Kennet/Race kit/FBX format/lightPost_exclusive.fbx
+  artifactKey: Guid(5da58912d810c1e40ac8e9f5d7371cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/lightPost_exclusive.fbx using Guid(5da58912d810c1e40ac8e9f5d7371cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c4c5970e8da5e73cc50e535d8ad9110') in 0.060814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Kennet/Race kit/FBX format/billboardLow.fbx
+  artifactKey: Guid(34ea358253657914d810b038ba0e519c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/billboardLow.fbx using Guid(34ea358253657914d810b038ba0e519c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81afe7a11c342c5563a2a9fe5382f66c') in 0.075306 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Kennet/Race kit/FBX format/billboardDouble_exclusive.fbx
+  artifactKey: Guid(a9ec69c730557bd46b2d2f7eed3bcbf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/billboardDouble_exclusive.fbx using Guid(a9ec69c730557bd46b2d2f7eed3bcbf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b593c4857ffe8dcf6578ef49ca945a99') in 0.076166 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Kennet/Race kit/FBX format/lightRedDouble.fbx
+  artifactKey: Guid(2bbffcd1cd8d92643b812a84fbaaa109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/lightRedDouble.fbx using Guid(2bbffcd1cd8d92643b812a84fbaaa109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0c9a939a898baf01a5392b0b095a0dc') in 0.086808 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Kennet/Race kit/FBX format/barrierWall.fbx
+  artifactKey: Guid(983597329239f784facbfae1440de393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/barrierWall.fbx using Guid(983597329239f784facbfae1440de393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d8df54886b7f022ef95ce0d4e023f73') in 0.059441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Kennet/Race kit/FBX format/grass.fbx
+  artifactKey: Guid(2418c7f2dc09ca2459288807fb002ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/grass.fbx using Guid(2418c7f2dc09ca2459288807fb002ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd19c01afe9832dff2745168db7c22a21') in 0.042216 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Kennet/Race kit/FBX format/barrierRed.fbx
+  artifactKey: Guid(a977d53032692e24b8d78ff3293f0c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/barrierRed.fbx using Guid(a977d53032692e24b8d78ff3293f0c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4810fceaed7a118799c6062479f4d236') in 0.052172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Kennet/Race kit/FBX format/lightPostModern.fbx
+  artifactKey: Guid(ed554cc203d49eb45bc049c7585c0742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/lightPostModern.fbx using Guid(ed554cc203d49eb45bc049c7585c0742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83c4ff5d8ad973c31a0fbd1f1393bbc0') in 0.054534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Kennet/Race kit/FBX format/pitsGarage.fbx
+  artifactKey: Guid(c3c9a2b7e15903446bd0aa623fdec433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/pitsGarage.fbx using Guid(c3c9a2b7e15903446bd0aa623fdec433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06ca9ae4f197cd183671e177d280e139') in 0.079805 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 17.928871 seconds.
+  path: Assets/Kennet/Race kit/FBX format/raceCarGreen.fbx
+  artifactKey: Guid(6ab4b78c69c229f4284d99ce4282d2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/raceCarGreen.fbx using Guid(6ab4b78c69c229f4284d99ce4282d2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86274fe22b02d371c2a2b3c72809a3e3') in 0.156821 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Kennet/Race kit/FBX format/roadCornerLargerBorder.fbx
+  artifactKey: Guid(ae0d20a766a8ee74dbc9a09030129726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/roadCornerLargerBorder.fbx using Guid(ae0d20a766a8ee74dbc9a09030129726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d03376d428f628bb88f9b1d6759f67c') in 0.052775 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Kennet/Race kit/FBX format/roadCornerLarger.fbx
+  artifactKey: Guid(9c35d58864699694eb447c8567bd2e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/roadCornerLarger.fbx using Guid(9c35d58864699694eb447c8567bd2e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6742a8a7cecd5255c1767778020807d') in 0.061798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Kennet/Race kit/FBX format/ramp.fbx
+  artifactKey: Guid(0145b9dd1e088474e8e9aec375f4d24f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/ramp.fbx using Guid(0145b9dd1e088474e8e9aec375f4d24f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7992defb08088b4960de38a76b4e41ef') in 0.056301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Kennet/Race kit/FBX format/rail.fbx
+  artifactKey: Guid(b7f21345b5d1fa64c8fea2998f647f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/rail.fbx using Guid(b7f21345b5d1fa64c8fea2998f647f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab45f9e0ebdf327b738d848505088151') in 0.041247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Kennet/Race kit/FBX format/roadCornerLargerBorderInner.fbx
+  artifactKey: Guid(12a2666bdc7727d449b8d06cc6de7f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/roadCornerLargerBorderInner.fbx using Guid(12a2666bdc7727d449b8d06cc6de7f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b92f157edc35f9c41692f038a6c99ab7') in 0.059135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Kennet/Race kit/FBX format/radarEquipment.fbx
+  artifactKey: Guid(742f77fe7f509fc45b094131cc86e3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/radarEquipment.fbx using Guid(742f77fe7f509fc45b094131cc86e3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c01492b2fe651a37551cfb194277815') in 0.059372 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Kennet/Race kit/FBX format/raceCarWhite.fbx
+  artifactKey: Guid(74d84f9914a7dfb449145b0efc2e0375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/raceCarWhite.fbx using Guid(74d84f9914a7dfb449145b0efc2e0375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70c7ed06717e5370a0efc2265a38f871') in 0.139011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Kennet/Race kit/FBX format/roadCornerBridgeSmall.fbx
+  artifactKey: Guid(28e5729b492881e488f9cbcdf1155a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/roadCornerBridgeSmall.fbx using Guid(28e5729b492881e488f9cbcdf1155a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c16614c3fdcd542ed75d404b37d10685') in 0.069965 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Kennet/Race kit/FBX format/roadCornerSmall.fbx
+  artifactKey: Guid(c750cb9c3fe468c43b10eefba5f3b76e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/roadCornerSmall.fbx using Guid(c750cb9c3fe468c43b10eefba5f3b76e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba4b60c118262ebc2293a11dd73bd7e3') in 0.068643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Kennet/Race kit/FBX format/roadCornerLargerWallInner.fbx
+  artifactKey: Guid(9a20d001f8df7f246a24ec58ebe88192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/roadCornerLargerWallInner.fbx using Guid(9a20d001f8df7f246a24ec58ebe88192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31842fb78290c139c81b65a431395637') in 0.053380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Kennet/Race kit/FBX format/roadCornerSmallBorder.fbx
+  artifactKey: Guid(0c1264222b5a3e449a998e847e6e2a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/roadCornerSmallBorder.fbx using Guid(0c1264222b5a3e449a998e847e6e2a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '368c0b8eedeb4dfa7ebaf2ebb1d6cdb3') in 0.053519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Kennet/Race kit/FBX format/railDouble.fbx
+  artifactKey: Guid(01af0c2d02edb6642a5024941006995d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/railDouble.fbx using Guid(01af0c2d02edb6642a5024941006995d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e1d1878f1b31a4ea16801298f917c6b') in 0.042788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Kennet/Race kit/FBX format/roadBump.fbx
+  artifactKey: Guid(6d30ef71311d19e46bf49e8b5199c0b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/roadBump.fbx using Guid(6d30ef71311d19e46bf49e8b5199c0b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8027de1ebdaf84f0bea35fe80c230667') in 0.060369 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Kennet/Race kit/FBX format/roadCornerLargeSandInner.fbx
+  artifactKey: Guid(99b078376e0146640af5a2b41449c9f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/roadCornerLargeSandInner.fbx using Guid(99b078376e0146640af5a2b41449c9f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdabe1478fff8253f9b2f9fc2a12948a') in 0.049727 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Kennet/Race kit/FBX format/roadCornerLargeWall.fbx
+  artifactKey: Guid(7c33580435dbce64a99605faf91d8845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/roadCornerLargeWall.fbx using Guid(7c33580435dbce64a99605faf91d8845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '351d63141bcae9233a595f711773f27b') in 0.063258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Kennet/Race kit/FBX format/roadCornerLargeWallInner.fbx
+  artifactKey: Guid(d0d4a49ba1498d142b31d74b1751eeba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/roadCornerLargeWallInner.fbx using Guid(d0d4a49ba1498d142b31d74b1751eeba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '517a4968703051df954afb27e25b757f') in 0.061806 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Kennet/Race kit/FBX format/roadCornerSmallSquare.fbx
+  artifactKey: Guid(e3cbc305b311e44419cf61e5218a7b55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/roadCornerSmallSquare.fbx using Guid(e3cbc305b311e44419cf61e5218a7b55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81e29ded10da99f16a0048b780c41954') in 0.061961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Kennet/Race kit/FBX format/roadCornerSmallSand.fbx
+  artifactKey: Guid(6d2636524f7e91b4da6ef43d735b1f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/roadCornerSmallSand.fbx using Guid(6d2636524f7e91b4da6ef43d735b1f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e6eb497381bd99f653d46d0d93cfa71') in 0.042076 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Kennet/Race kit/FBX format/roadCornerLargerSandInner.fbx
+  artifactKey: Guid(b607d877972032c4ca8d777d12e9bf2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/roadCornerLargerSandInner.fbx using Guid(b607d877972032c4ca8d777d12e9bf2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '712bb6babbc72c8ad73a802a7f030a5f') in 0.060732 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Kennet/Race kit/FBX format/roadCornerLargeBorderInner.fbx
+  artifactKey: Guid(91fff7bee0b2e2f4e9ddbc450fb28c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/roadCornerLargeBorderInner.fbx using Guid(91fff7bee0b2e2f4e9ddbc450fb28c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aac21d4b3d74a10bbb6b9a1285d9b1be') in 0.053888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Kennet/Race kit/FBX format/roadCornerLargeSand.fbx
+  artifactKey: Guid(049774109f7488b41933126e526339b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/roadCornerLargeSand.fbx using Guid(049774109f7488b41933126e526339b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61c832b4e1de8e759aaab49b924b53ef') in 0.045429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Kennet/Race kit/FBX format/roadCornerLargeBorder.fbx
+  artifactKey: Guid(c7b8ce7da50e5cb4ba59606d6bc74cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/roadCornerLargeBorder.fbx using Guid(c7b8ce7da50e5cb4ba59606d6bc74cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cbf52729ec9f5e00bbbe4929b80f99c') in 0.053977 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Kennet/Race kit/FBX format/roadCornerLargerWall.fbx
+  artifactKey: Guid(7299f14ab4c635c4bbe327c87e19e23c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/roadCornerLargerWall.fbx using Guid(7299f14ab4c635c4bbe327c87e19e23c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f978d6136496b1b1931be9980057203') in 0.050339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Kennet/Race kit/FBX format/roadCornerLargerSand.fbx
+  artifactKey: Guid(5b54dc2cbf7a36e40bae8be361780936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/roadCornerLargerSand.fbx using Guid(5b54dc2cbf7a36e40bae8be361780936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a5c3dd24e2fef12be7674eee2c15b41') in 0.045935 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Kennet/Race kit/FBX format/raceCarOrange.fbx
+  artifactKey: Guid(23e2d6774a3170545b1501995c76d4dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/raceCarOrange.fbx using Guid(23e2d6774a3170545b1501995c76d4dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b03c3eee731e84144456bd0dfaa6564') in 0.154538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Kennet/Race kit/FBX format/raceCarRed.fbx
+  artifactKey: Guid(ac314165996239844bef7782c018438a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/raceCarRed.fbx using Guid(ac314165996239844bef7782c018438a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '153a2d9379ce6d19b6d165368ce51028') in 0.161124 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Kennet/Race kit/FBX format/roadCornerBridgeLarge.fbx
+  artifactKey: Guid(ee55956e8bfc6d64eb9547f27dc77b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/roadCornerBridgeLarge.fbx using Guid(ee55956e8bfc6d64eb9547f27dc77b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5799ce6cd725e7c6474fcae2c5a0b166') in 0.066083 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Kennet/Race kit/FBX format/roadCornerLarge.fbx
+  artifactKey: Guid(9a40bc6112f5658418fbfee5feb3f9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/roadCornerLarge.fbx using Guid(9a40bc6112f5658418fbfee5feb3f9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ad4d9a68b674f8d7d15d0dbcce892d6') in 0.071700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Kennet/Race kit/FBX format/roadCornerBridgeLarger.fbx
+  artifactKey: Guid(0671511f2e39d3d4c8f5eda4c62b87b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/roadCornerBridgeLarger.fbx using Guid(0671511f2e39d3d4c8f5eda4c62b87b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c9cd2dc09a1909acaa6d97c84aaefae') in 0.065959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 18.024482 seconds.
+  path: Assets/Kennet/Race kit/FBX format/roadCornerSmallWall.fbx
+  artifactKey: Guid(79f2e864a5a98104188f5045407e7379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/roadCornerSmallWall.fbx using Guid(79f2e864a5a98104188f5045407e7379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '376e9566e198c4b11636651e45be4fe7') in 0.056416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Kennet/Race kit/FBX format/roadCrossing.fbx
+  artifactKey: Guid(7835f628b67de0d4c8ac7c08fa589b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/roadCrossing.fbx using Guid(7835f628b67de0d4c8ac7c08fa589b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6814ebaede6bae2573be1f1289d2f736') in 0.066114 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Kennet/Race kit/FBX format/roadPitStraightLong.fbx
+  artifactKey: Guid(f717dc480701f6c4fad5bb4cf8166f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/roadPitStraightLong.fbx using Guid(f717dc480701f6c4fad5bb4cf8166f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b732a6a1e243603b71f99736e42e2e66') in 0.064205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Kennet/Race kit/FBX format/roadCurved.fbx
+  artifactKey: Guid(6d82e38833b1a8c41a1e817b655cd50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/roadCurved.fbx using Guid(6d82e38833b1a8c41a1e817b655cd50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9551f5732c0b96d5e9688e07071adb5') in 0.057502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Kennet/Race kit/FBX format/roadPitStraight.fbx
+  artifactKey: Guid(fab29fa64ebf46a44b76a159afa4e518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/roadPitStraight.fbx using Guid(fab29fa64ebf46a44b76a159afa4e518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9497773ce95f4ce1c5712d175d7a979') in 0.068859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Kennet/Race kit/FBX format/roadEnd.fbx
+  artifactKey: Guid(9c66a5bd90dea0649a45038bb4bf13d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/roadEnd.fbx using Guid(9c66a5bd90dea0649a45038bb4bf13d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdce67f12d386010f23b70cc1de098c0') in 0.062909 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Kennet/Race kit/FBX format/roadRamp.fbx
+  artifactKey: Guid(d40561a88d8b805488a617e37b7c041b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/roadRamp.fbx using Guid(d40561a88d8b805488a617e37b7c041b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69f61d232f304cd618da179d29059a7c') in 0.061875 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Kennet/Race kit/FBX format/roadCurvedSplit.fbx
+  artifactKey: Guid(6feaa4757aeb5ca4ba99f8c96addf53f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/roadCurvedSplit.fbx using Guid(6feaa4757aeb5ca4ba99f8c96addf53f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ea20b357d9386d72c684b48146a53ed') in 0.058628 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Kennet/Race kit/FBX format/roadPitEntry.fbx
+  artifactKey: Guid(4f3fdc3679b0cf3488b229551255df65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/roadPitEntry.fbx using Guid(4f3fdc3679b0cf3488b229551255df65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dfd9809cf0798fff9af98f0363b5f11') in 0.059830 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Kennet/Race kit/FBX format/roadPitGarage.fbx
+  artifactKey: Guid(04dc88f7c977c2b48a665c40cb779ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/roadPitGarage.fbx using Guid(04dc88f7c977c2b48a665c40cb779ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30130f0d70b36d58b37db122bc376f94') in 0.067007 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.618437 seconds.
+  path: Assets/Kennet/Race kit/FBX format/roadRampLong.fbx
+  artifactKey: Guid(6f83edaf71e2aed41a8d355d9e5350e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/roadRampLong.fbx using Guid(6f83edaf71e2aed41a8d355d9e5350e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7265cf4d457abbfd4d9ef66939cf5ac9') in 0.070877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Kennet/Race kit/FBX format/roadSplitLarger.fbx
+  artifactKey: Guid(d9d791050013e594d96fb84dd10b6cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/roadSplitLarger.fbx using Guid(d9d791050013e594d96fb84dd10b6cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa226421e5b4914985e297caaa59a4f6') in 0.071807 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Kennet/Race kit/FBX format/roadRampLongCurved.fbx
+  artifactKey: Guid(8ff703f780c470e4f9747d13e249b4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/roadRampLongCurved.fbx using Guid(8ff703f780c470e4f9747d13e249b4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3af068f4bbe1fadc382bb2b403533bf') in 0.066127 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Kennet/Race kit/FBX format/roadRampLongCurvedWall.fbx
+  artifactKey: Guid(3ffe44ddc617d3b4db59df5a1ed3fc6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/roadRampLongCurvedWall.fbx using Guid(3ffe44ddc617d3b4db59df5a1ed3fc6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd632f14ce3a89a8ea1e32ca3dc2ce3eb') in 0.067710 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Kennet/Race kit/FBX format/roadRampLongWall.fbx
+  artifactKey: Guid(dc3f6355c48f98f42862afbe7dd4f8c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/roadRampLongWall.fbx using Guid(dc3f6355c48f98f42862afbe7dd4f8c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e79dfafd1accb550740444933f61406e') in 0.070777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Kennet/Race kit/FBX format/roadSplitLarge.fbx
+  artifactKey: Guid(3698e2d707d102b428e8c6ba9b8c4b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/roadSplitLarge.fbx using Guid(3698e2d707d102b428e8c6ba9b8c4b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a50e707717edffdad00d0f31744c8521') in 0.064631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Kennet/Race kit/FBX format/roadRampWall.fbx
+  artifactKey: Guid(91710c7e703440a44927aea8b8f7651c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/roadRampWall.fbx using Guid(91710c7e703440a44927aea8b8f7651c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12cae20ace95e791e04c4f2758883542') in 0.068457 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Kennet/Race kit/FBX format/roadSplit.fbx
+  artifactKey: Guid(fc7b5fbfc7a347e4da6e14900dfc1d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/roadSplit.fbx using Guid(fc7b5fbfc7a347e4da6e14900dfc1d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8e030eebf209c6c4fbbbd50c6940256') in 0.066403 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Kennet/Race kit/FBX format/roadSide.fbx
+  artifactKey: Guid(6b5b32a912c08e1429719fb6e3da6ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/roadSide.fbx using Guid(6b5b32a912c08e1429719fb6e3da6ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '274d2cfef33a2973923b065fd9058831') in 0.061526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Kennet/Race kit/FBX format/roadSplitRound.fbx
+  artifactKey: Guid(f337f79edc6408547b0c45725f5c0ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/roadSplitRound.fbx using Guid(f337f79edc6408547b0c45725f5c0ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c44fb710d580e4fa5eb1f8b53208a98d') in 0.066692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.176105 seconds.
+  path: Assets/Kennet/Race kit/FBX format/roadSplitRoundLarge.fbx
+  artifactKey: Guid(69a4cd4bd6e7d9f49a5004a467b1e14d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/roadSplitRoundLarge.fbx using Guid(69a4cd4bd6e7d9f49a5004a467b1e14d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eea1ebe212cd9f39f49f57cd8faa87fc') in 0.072316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Kennet/Race kit/FBX format/roadSplitSmall.fbx
+  artifactKey: Guid(a192737cd0fd20d45bad3a48358c9284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/roadSplitSmall.fbx using Guid(a192737cd0fd20d45bad3a48358c9284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26d02054f1c1115fe6be4a97f7fddaf7') in 0.074840 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Kennet/Race kit/FBX format/tentRoofDouble.fbx
+  artifactKey: Guid(61603804b6b49824189ff61cea4b448a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/tentRoofDouble.fbx using Guid(61603804b6b49824189ff61cea4b448a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dd18d77f28accb761f43045c5eb5f7b') in 0.061708 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Kennet/Race kit/FBX format/roadStraightBridgeStart.fbx
+  artifactKey: Guid(552a00ba564b14e4c9ebe1e3ffb6f24f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/roadStraightBridgeStart.fbx using Guid(552a00ba564b14e4c9ebe1e3ffb6f24f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4314ce9f7ddcbc10637837e6f6eda5d3') in 0.061967 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Kennet/Race kit/FBX format/roadStraight.fbx
+  artifactKey: Guid(1ef0fd8038ef3cb45838fa0ebb99e9c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/roadStraight.fbx using Guid(1ef0fd8038ef3cb45838fa0ebb99e9c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddbbaa43dcc210eda47c897c76eb98e0') in 0.062837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Kennet/Race kit/FBX format/tentClosed.fbx
+  artifactKey: Guid(cafa7d818f61b634e9791fddeba9ad56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/tentClosed.fbx using Guid(cafa7d818f61b634e9791fddeba9ad56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da25c022abf87deb56c406393b1d9b1a') in 0.053974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Kennet/Race kit/FBX format/tent.fbx
+  artifactKey: Guid(1d6d26f5fc5ac4b459ba7a847a02d369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/tent.fbx using Guid(1d6d26f5fc5ac4b459ba7a847a02d369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a174bfb5e43b1e5b9c3832df6f556db2') in 0.051014 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Kennet/Race kit/FBX format/tentRoof.fbx
+  artifactKey: Guid(236c8e1b853eaab4098974a229f35e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/tentRoof.fbx using Guid(236c8e1b853eaab4098974a229f35e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ec84e3eaad5dfbe2486c5e73e9b5d07') in 0.061860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Kennet/Race kit/FBX format/roadStart.fbx
+  artifactKey: Guid(05e9f1ff03e8f2d48a5bab337fc31915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/roadStart.fbx using Guid(05e9f1ff03e8f2d48a5bab337fc31915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f93310b5cbaba57213260376c11d42e1') in 0.061211 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Kennet/Race kit/FBX format/roadStraightBridgeMid.fbx
+  artifactKey: Guid(16dbd8d1c0f814c419fc84c5790ab74f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/roadStraightBridgeMid.fbx using Guid(16dbd8d1c0f814c419fc84c5790ab74f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeb28f6a02960e009c94e8004e551c37') in 0.068724 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Kennet/Race kit/FBX format/roadStraightSkew.fbx
+  artifactKey: Guid(f8857689188887b4e88af3c9a3409aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/roadStraightSkew.fbx using Guid(f8857689188887b4e88af3c9a3409aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47355954d2b956d5e1bcc1b901a54436') in 0.062086 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Kennet/Race kit/FBX format/tentClosedLong.fbx
+  artifactKey: Guid(fa87c540eccf0794fad20d64930867dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/tentClosedLong.fbx using Guid(fa87c540eccf0794fad20d64930867dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52706b70cf0d09cde7a6c2502386cd5f') in 0.055502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Kennet/Race kit/FBX format/roadStraightLongMid.fbx
+  artifactKey: Guid(a4e8c5e725013b74690e8ad482a595c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/roadStraightLongMid.fbx using Guid(a4e8c5e725013b74690e8ad482a595c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24143077cdb42a256345def187095ee2') in 0.063033 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Kennet/Race kit/FBX format/roadStraightArrow.fbx
+  artifactKey: Guid(e842804a1fec06d44b3c3c891e75e75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/roadStraightArrow.fbx using Guid(e842804a1fec06d44b3c3c891e75e75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6431d9f49eda896c20a5d779e6dc3c4') in 0.063082 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Kennet/Race kit/FBX format/tentLong.fbx
+  artifactKey: Guid(eaa1ba62b32a1d64195961c3a779a6f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/tentLong.fbx using Guid(eaa1ba62b32a1d64195961c3a779a6f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb4bd90d3634b3d83571cae2f2016df3') in 0.061376 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Kennet/Race kit/FBX format/roadStartPositions.fbx
+  artifactKey: Guid(c5b46f972ea6a2245ab6747318af5d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/roadStartPositions.fbx using Guid(c5b46f972ea6a2245ab6747318af5d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee0090115b3c90485290a24caa519a5d') in 0.059937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Kennet/Race kit/FBX format/roadStraightLong.fbx
+  artifactKey: Guid(96a6489fff92cef4697dd25ad0753085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/roadStraightLong.fbx using Guid(96a6489fff92cef4697dd25ad0753085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12f1d80d52e2d6e2e0b843cfcc05bbf0') in 0.064492 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Kennet/Race kit/FBX format/roadStraightLongBumpRound.fbx
+  artifactKey: Guid(2570526d01f84e24fb0a86ac7efed3d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/roadStraightLongBumpRound.fbx using Guid(2570526d01f84e24fb0a86ac7efed3d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dcfa563cfeb8028fd88d9e83ef9fdf1') in 0.068806 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Kennet/Race kit/FBX format/roadStraightBridge.fbx
+  artifactKey: Guid(da782a99143c443479eb996dd6a41ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/roadStraightBridge.fbx using Guid(da782a99143c443479eb996dd6a41ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c796570955212596621556708d29feab') in 0.075371 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Kennet/Race kit/FBX format/roadStraightLongBump.fbx
+  artifactKey: Guid(ac3086edf825a6b45842bcdb82f5bdd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/roadStraightLongBump.fbx using Guid(ac3086edf825a6b45842bcdb82f5bdd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '023e55cf7a9a5e1168cf1189520ea4b5') in 0.062050 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 307.887331 seconds.
+  path: Assets/Kennet/Race kit/FBX format/treeLarge.fbx
+  artifactKey: Guid(a83123c9c97b53d4f81ddaefd52b6c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/treeLarge.fbx using Guid(a83123c9c97b53d4f81ddaefd52b6c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b20cead9369ea55c3588bb043bd115db') in 0.061450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Kennet/Race kit/FBX format/treeSmall.fbx
+  artifactKey: Guid(a90ce05f4bae5574da3e5575d8133a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kennet/Race kit/FBX format/treeSmall.fbx using Guid(a90ce05f4bae5574da3e5575d8133a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '552feef8ae5ac04adffe7954ba7cbe9c') in 0.055113 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
